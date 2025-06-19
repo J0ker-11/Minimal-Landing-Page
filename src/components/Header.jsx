@@ -6,7 +6,7 @@ const Header = () => {
     const listItems = ["Home", "Service","Feature", "Product", "Testimonial", "FAQ"]
     const navLinks = listItems.map((list,index) => <li key={index}>{list}</li>)
   return (
-       <header className='w-full max-w-8xl mx-auto px-4 py-2'>
+       <header className='w-full max-w-8xl mx-auto px-4 py-2 border-1 border-blue-600'>
         <nav>
             <div className='flex justify-between items-center'>
                 {/* Nav logo */}
