@@ -7,7 +7,7 @@ const Header = () => {
     const navLinks = listItems.map((list,index) => <li key={index}>{list}</li>)
   return (
        <header className='w-full max-w-8xl mx-auto px-4 py-2 border-1 border-blue-600'>
-        <nav className='px-30'>
+        <nav clas>
             <div className='flex justify-between items-center'>
                 {/* Nav logo */}
                 <a href="" className='text-2xl  font-semibold flex items-center space-x-3'><img src={Icon} alt="" className='w-10 inline-block items-center' /><span className=''>Nexcent</span></a>
